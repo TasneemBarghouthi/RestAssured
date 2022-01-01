@@ -5,6 +5,11 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
+/**
+ * Test to create a user using this API
+ * POST https://reqres.in/api/users
+ *
+ * */
 public class UsersTest {
 
     public static final String USERS_BASE_URL = "https://reqres.in/api/users/";

@@ -5,6 +5,10 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
+/**
+ * Test that will get the data of the user where id = 7
+ * using this API GET https://reqres.in/api/users/<id>
+ * */
 public class UsersTest {
 
     public static final String USERS_BASE_URL = "https://reqres.in/api/users/";
